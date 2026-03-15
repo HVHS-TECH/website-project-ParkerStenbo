@@ -1,22 +1,49 @@
 
 .nav_bar{
-    background-color:aqua;
+    background-color:#001B2E;
     width:100.9%;
     margin-left:-0.5%;
     height:100px;
     margin-top:-0.5%;
+    display:grid;
+    grid-template-columns: 20% 10% 40% 10% 20%;
 }
 .tablinks{
     width:fit-content;
     height:fit-content;
     margin:auto;
+    margin-top:-3px
 }
 .tablink{
     margin-top:10%;
     width: 70px;
     height:30px;
+    background-color: #818791;
+    border-radius:0;
+    border:none;
+    outline:none;
+    font-family:"arial black";
+    color:#001B2E;
+    text-align:center;
+    font-size:10px;
 }
+.tablink:hover {
+    background-color:#a2a8b3;
+}
+.NavbarLogo {
+    scale:20%;
+    margin-top: -103px;
+    margin-left: -95px
+}
+
+.NavbarTitle {
+    color:#ADB6C4;
+    font-family:"arial black";
+}
+
 #active{
     width: 90px;
     height:50px;
+    background-color: #ADB6C4;
+    font-size:20px;
 }
