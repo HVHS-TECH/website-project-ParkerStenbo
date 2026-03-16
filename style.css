@@ -6,7 +6,7 @@
     height:100px;
     margin-top:-0.5%;
     display:grid;
-    grid-template-columns: 20% 10% 40% 10% 20%;
+    grid-template-columns: 15% 15% 40% 15% 15%;
 }
 .tablinks{
     width:fit-content;
@@ -31,14 +31,23 @@
     background-color:#a2a8b3;
 }
 .NavbarLogo {
-    scale:20%;
-    margin-top: -103px;
-    margin-left: -95px
+    scale:27%;
+    margin-top: -105px;
+    margin-left: -90px
 }
 
 .NavbarTitle {
     color:#ADB6C4;
     font-family:"arial black";
+    margin-top: 35px;
+    text-align: center;
+    margin-left:10px;
+}
+.NavbarSiteName {
+    color:#ADB6C4;
+    font-family:"arial black";
+    margin-top:35px;
+    text-align:left;
 }
 
 #active{
