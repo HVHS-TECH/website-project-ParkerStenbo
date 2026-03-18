@@ -29,6 +29,7 @@
 }
 .tablink:hover {
     background-color:#a2a8b3;
+    cursor:pointer;
 }
 .NavbarLogo {
     scale:27%;
@@ -54,5 +55,5 @@
     width: 90px;
     height:50px;
     background-color: #ADB6C4;
-    font-size:20px;
+    font-size:90%;
 }
