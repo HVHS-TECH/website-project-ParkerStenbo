@@ -1,5 +1,6 @@
 
 .nav_bar{
+    position:fixed;
     background-color:#001B2E;
     width:100.9%;
     margin-left:-0.5%;
@@ -7,6 +8,11 @@
     margin-top:-0.5%;
     display:grid;
     grid-template-columns: 15% 15% 40% 15% 15%;
+}
+.middlepart {
+    height:100px;
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
 .tablinks{
     width:fit-content;
@@ -37,6 +43,13 @@
     margin-left: -90px
 }
 
+.NavbarAltLogo {
+    /*scale:27%;*/
+    width: 72px;
+    margin:auto;
+    /*margin-top: -105px;*/
+    
+}
 .NavbarTitle {
     color:#ADB6C4;
     font-family:"arial black";
