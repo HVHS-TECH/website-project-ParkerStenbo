@@ -3,3 +3,7 @@ yo so this is my w website. it's an unorganized autistic rant about planes I thi
 If you have any feedback, I'd much appreceate it, I'd take feedback in person OR via paper plane. Maybe on this github page if there's a place that would work for it like maybe the issues? I low key don't know.
 
 anyway, enjoy the website and appreceate my commit messages. I worked hard on them.
+
+Credits:
+https://www.flickr.com/photos/14265068@N00/6322238503
+https://flickr.com/photos/87490663@N08/34932299646

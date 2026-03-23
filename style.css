@@ -2,10 +2,10 @@
 .nav_bar{
     position:fixed;
     background-color:#001B2E;
-    width:100.9%;
-    margin-left:-0.5%;
+    width:100%;
+    margin-left:0;
     height:100px;
-    margin-top:-0.5%;
+    margin-top:0;
     display:grid;
     grid-template-columns: 15% 15% 40% 15% 15%;
 }
