@@ -42,3 +42,61 @@ body{
 .paragraphTitle {
     text-align:center;
 }
+
+.slideshow {
+    max-width:960px;
+    position: relative;
+    margin: auto;
+}
+.slide{
+    display:none;
+}
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    font-family:"arial black";
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:#ADB6C4;
+    user-select: none;
+}
+.next {
+    right:0;
+}
+.previous:hover, .next:hover {
+    color:#294C60
+}
+
+.caption {
+    color:#ADB6C4;
+    font-family: "arial black";
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.captionContainer {
+    font-family: "arial black";
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}
+
+.numbertext {
+    font-family:"arial black";
+    color:#ADB6C4;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
