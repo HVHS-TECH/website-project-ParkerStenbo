@@ -47,6 +47,9 @@ body{
     max-width:960px;
     position: relative;
     margin: auto;
+    border: #ADB6C4;
+    border-width:10px;
+    border-style:solid;
 }
 .slide{
     display:none;
@@ -61,31 +64,30 @@ body{
     padding:16px;
     color:#ADB6C4;
     user-select: none;
+    background-color:#00000057;
 }
 .next {
     right:0;
 }
 .previous:hover, .next:hover {
-    color:#294C60
+    color:#294C60;
+    background-color:#a0a0a01c;
 }
 
 .caption {
     color:#ADB6C4;
     font-family: "arial black";
     font-size: 15px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
     text-align: center;
+    text-decoration-line: none;
 }
 .captionContainer {
-    font-family: "arial black";
-    font-size: 15px;
     position: absolute;
-    bottom: 8px;
+    bottom: 4px;
     width: 100%;
     text-align: center;
     margin:auto;
+    background-color:#00000057;
 }
 
 .numbertext {
@@ -94,6 +96,8 @@ body{
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    text-align: center;
+    background-color:#00000057;
 }
 
 .fade {
