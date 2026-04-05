@@ -97,19 +97,23 @@ body{
         <img class="spacerimg" src="Images/icon.png" alt="just a pixelated plane. the site logo.">
     </div>
     <div class="paragraphs">
-        <h1 class="paragraphTitle">EUROPE</h1>
-        <div class="PlaneLink" onclick="location.href='Articles/Strikemaster.html'">
-            <img class="LinkImage" src="Images/Pictures of planes/Strikemaster - resized.jpg">
-            <br> <a href="Articles/Strikemaster.html" class="paragraphBody">BAE Strikemaster</a>
+        <div class="collapsible">
+            <h1 class="paragraphTitle">EUROPE</h1>
+            <div class="PlaneLink" onclick="location.href='Articles/Strikemaster.html'">
+                <img class="LinkImage" src="Images/Pictures of planes/Strikemaster - resized.jpg">
+                <br> <a href="Articles/Strikemaster.html" class="paragraphBody">BAE Strikemaster</a>
+            </div>
         </div>
         <br>
         <div class="spacer">
             <img class="spacerimg" src="Images/icon.png" alt="just a pixelated plane. the site logo.">
         </div>
-        <h1 class="paragraphTitle">UNITED STATES</h1>
-        <div class="PlaneLink" onclick="location.href='Articles/Phantom.html'">
-            <img class="LinkImage" src="Images/Pictures of planes/F-4E_Phantom.jpg">
-            <br> <a href="Articles/Phantom.html" class="paragraphBody">mcdonald douglas f4 phantom 2</a>
+        <div class="collapsible">
+            <h1 class="paragraphTitle">UNITED STATES</h1>
+            <div class="PlaneLink" onclick="location.href='Articles/Phantom.html'">
+                <img class="LinkImage" src="Images/Pictures of planes/F-4E_Phantom.jpg">
+                <br> <a href="Articles/Phantom.html" class="paragraphBody">mcdonald douglas f4 phantom 2</a>
+            </div>
         </div>
     </div>
     <br>
@@ -122,6 +126,22 @@ body{
     <br>
     <br>
     <br>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+    </script>
 </body>
 </html>
 
