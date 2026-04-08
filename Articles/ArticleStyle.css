@@ -46,6 +46,7 @@ body{
 
 .slideshow {
     max-width:960px;
+    max-height:480px;
     position: relative;
     margin: auto;
     border: #ADB6C4;
