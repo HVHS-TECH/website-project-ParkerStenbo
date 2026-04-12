@@ -27,6 +27,7 @@ body{
     height:90px;
     margin-left:50%;
 }
+@media screen and (min-width: 1543px) {
 .paragraphs {
     background-color: #001B2E;
     width: 70%;
@@ -44,9 +45,32 @@ body{
     font-size: 20;
     text-decoration: none;
 }
+}
+@media screen and (max-width: 1542px) {
+.paragraphs {
+    background-color: #001B2E;
+    width: 100%;
+    margin: auto;
+    font-family: "arial black";
+    text-align:center;
+    color:#ADB6C4;
+    padding: 5px 5px;
+    border-radius: 0px;
+    padding:0;
+    border:0;
+    margin:0;
+}
+.paragraphBody {
+    text-align:center;
+    color:#001B2E;
+    padding:15px 15px;
+    font-size: 20;
+    text-decoration: none;
+}
+}
 
 
-
+@media screen and (min-width: 1050px) {
 .PlaneLink {
     background-color: #ADB6C4;
     width:fit-content;
@@ -54,6 +78,20 @@ body{
     border-radius:10px;
     margin:auto;
     padding-bottom: 10px;
+}
+}
+@media screen and (max-width: 1049px) {
+.PlaneLink {
+    background-color: #ADB6C4;
+    width:100%;
+    height:fit-content;
+    border-radius:0px;
+    margin:auto;
+    padding-bottom: 10px;
+}
+.LinkImage {
+    width:100%;
+}
 }
 .paragraphTitle{
     font-family: "arial black";
@@ -83,14 +121,6 @@ body{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-.PlaneLink {
-    background-color: #ADB6C4;
-    width:fit-content;
-    height:fit-content;
-    border-radius:10px;
-    margin:auto;
-    padding-bottom: 10px;
-}
 .paragraphTitle:after {
   content: '+'; /* Unicode character for "plus" sign (+) */
   font-size: 20px;
@@ -104,6 +134,7 @@ body{
   content: "-"; /* Unicode character for "minus" sign (-) */
 }
 
+@media screen and (min-width: 1050px) {
 #europe {
     background-image: url(Images/Flags/Europe\ GRADIANT.png);
     width:1000px;
@@ -115,9 +146,23 @@ body{
     background-position: 0 300px;
 }
 #ussr {
+    
     background-image: url(Images/Flags/Ussr\ GRADIANT.png);
     width:1000px;
     background-position: 0 300px;
+}
+}
+
+@media screen and (max-width: 1049px) {
+#europe {
+    background-position: 0 320px;
+}
+#united_states {
+    background-position: 0 300px;
+}
+#ussr {
+    background-position: 0 300px;
+}
 }
 </style>
 <body>
