@@ -40,7 +40,7 @@ body{
     border:0;
 }
 }
-@media screen and (max-width: 1543px) {
+@media screen and (max-width: 1542px) {
 .paragraphs {
     background-color: #001B2E;
     width: 100%;
@@ -48,10 +48,10 @@ body{
     font-family: "arial black";
     text-align:center;
     color:#ADB6C4;
-    padding: 5px 5px;
+    padding: 0px 0px;
     border-radius: 0px;
     border:0;
-    font-size: 12px;
+    font-size: 30px;
 }
 }
 .paragraphBody {
