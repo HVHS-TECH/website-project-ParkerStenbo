@@ -14,32 +14,56 @@ body{
     padding:0;
     border:0;
 }
-.title{
-    text-align:center;
-    margin-top: -38px;
-    margin-left:0;
-    padding-left:0;
-    border-left:0;
-    color:#ADB6C4;
-    font-family:"arial black";
-    width:100%;
-    height: 500px;
-    background-image: url("Images/Pictures of planes/Alt_Sea_vixen.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 60%;
-    background-attachment: fixed;
+@media screen and (min-width: 1000px) {
+    .title{
+        text-align:center;
+        margin-top: -38px;
+        margin-left:0;
+        padding-left:0;
+        border-left:0;
+        color:#ADB6C4;
+        font-family:"arial black";
+        width:100%;
+        height: 500px;
+        background-image: url("Images/Pictures of planes/Alt_Sea_vixen.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 60%;
+        background-attachment: fixed;
+    }
+    .TitleSpacer {
+        height:390px;
+        text-align:center;
+    }
+    .TitleText{
+        margin:auto;
+        text-align:center;
+        width:fit-content; 
+        background-color:#294C60;
+        padding: 0px 10px;
+    }
+    .seaVixenTitleImage{
+        display: none;
+    }
 }
-.TitleSpacer {
-  height:390px;
-    text-align:center;
-}
-.TitleText{
-    margin:auto;
-    text-align:center;
-    width:fit-content; 
-    background-color:#294C60;
-    padding: 0px 10px;
+@media screen and (max-width: 999px) {
+    .title{
+        text-align:center;
+        margin:auto;
+        margin-top: 15px;
+        color:#ADB6C4;
+        font-family:"arial black";
+    }
+    .seaVixenTitleImage{
+        border: #ADB6C4;
+        border-width:10px;
+        border-style:solid;
+        width:80%;
+    }
+    .spacerimg{
+        width:80px;
+        margin-left:-40px;
+    }
 }
 .spacerimg{
     width:80px;
@@ -92,6 +116,7 @@ body{
 <div class="title">
     <div class="TitleSpacer"></div>
     <div class="TitleText">
+        <img class="seaVixenTitleImage" src="Images/Pictures of planes/Sea Vixen.jpg" alt="the sea vixen, twin engined, twin-tailed, swepted wing aircraft with two seats and an offset cockpit.">
         <h1>Parkers Plane Platform</h1>
         <p>unorganised autistic obsession on aircraft</p>
     </div>
