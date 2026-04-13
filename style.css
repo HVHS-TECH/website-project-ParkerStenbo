@@ -1,4 +1,5 @@
 
+@media screen and (min-width: 1000px) {
 .nav_bar{
     z-index: 10;
     position:fixed;
@@ -9,6 +10,20 @@
     margin-top:0;
     display:grid;
     grid-template-columns: 15% 15% 40% 15% 15%;
+    
+}
+.NavbarTitle {
+    color:#ADB6C4;
+    font-family:"arial black";
+    margin-top: 35px;
+    text-align: center;
+    margin-left:10px;
+}
+.NavbarSiteName {
+    color:#ADB6C4;
+    font-family:"arial black";
+    margin-top:35px;
+    text-align:left;
 }
 .middlepart {
     height:100px;
@@ -38,11 +53,6 @@
     background-color:#a2a8b3;
     cursor:pointer;
 }
-.NavbarLogo {
-    scale:27%;
-    margin-top: -105px;
-    margin-left: -90px
-}
 
 .NavbarAltLogo {
     /*scale:27%;*/
@@ -51,23 +61,95 @@
     /*margin-top: -105px;*/
     
 }
-.NavbarTitle {
-    color:#ADB6C4;
-    font-family:"arial black";
-    margin-top: 35px;
-    text-align: center;
-    margin-left:10px;
-}
-.NavbarSiteName {
-    color:#ADB6C4;
-    font-family:"arial black";
-    margin-top:35px;
-    text-align:left;
-}
+
 
 #active{
     width: 90px;
     height:50px;
     background-color: #ADB6C4;
     font-size:90%;
+}
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1000px) {
+.nav_bar{
+    z-index: 10;
+    position:fixed;
+    background-color:#001B2E;
+    width:100%;
+    margin-left:0;
+    height:180px;
+    margin-top:0;
+    display:grid;
+    grid-template-columns: 1% 1% 96% 1% 1%;
+    
+}
+.NavbarTitle {
+    color:#001B2E;
+    font-family:"arial black";
+    margin-top: 35px;
+    text-align: center;
+    margin-left:10px;
+    font-size:1px;
+}
+.NavbarSiteName {
+    color:#001B2E;
+    font-family:"arial black";
+    margin-top:35px;
+    text-align:left;
+    font-size:1px;
+}
+.middlepart {
+    height:200px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.tablinks{
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    margin-top:10px
+}
+.tablink{
+    margin-top:10%;
+    width: 90px;
+    height:50px;
+    background-color: #818791;
+    border-radius:0;
+    border:none;
+    outline:none;
+    font-family:"arial black";
+    color:#001B2E;
+    text-align:center;
+    font-size:13px;
+}
+.tablink:hover {
+    background-color:#a2a8b3;
+    cursor:pointer;
+}
+
+.NavbarAltLogo {
+    /*scale:27%;*/
+    width: 120px;
+    margin:auto;
+    /*margin-top: -105px;*/
+    
+}
+
+
+#active{
+    width: 110px;
+    height:70px;
+    background-color: #ADB6C4;
+    font-size:18px;
+}
+}
+.NavbarLogo {
+    scale:27%;
+    margin-top: -105px;
+    margin-left: -90px
 }
