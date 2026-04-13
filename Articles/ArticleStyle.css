@@ -57,24 +57,8 @@ body{
 .slide{
     display:none;
 }
-.previous, .next {
-    cursor: pointer;
-    position: absolute;
-    font-family:"arial black";
-    top:50%;
-    width:auto;
-    margin-top:-22px;
-    padding:16px;
-    color:#ADB6C4;
-    user-select: none;
-    background-color:#00000057;
-}
 .next {
     right:0;
-}
-.previous:hover, .next:hover {
-    color:#294C60;
-    background-color:#a0a0a01c;
 }
 
 .caption {
@@ -130,7 +114,6 @@ body{
 .slideshow {
     max-width:70%;
     position: relative;
-    z-index: -1;
     margin: auto;
     align-self: center;
     border: #ADB6C4;
@@ -140,24 +123,9 @@ body{
 .slide{
     display:none;
 }
-.previous, .next {
-    cursor: pointer;
-    position: absolute;
-    font-family:"arial black";
-    top:50%;
-    width:auto;
-    margin-top:-22px;
-    padding:16px;
-    color:#ADB6C4;
-    user-select: none;
-    background-color:#00000057;
-}
+
 .next {
     right:0;
-}
-.previous:hover, .next:hover {
-    color:#294C60;
-    background-color:#a0a0a01c;
 }
 
 .caption {
@@ -194,6 +162,23 @@ body{
     width:100%;
 }
 
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    font-family:"arial black";
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:#ADB6C4;
+    user-select: none;
+    background-color:#00000057;
+}
+.previous:hover, .next:hover {
+    color:#294C60;
+    background-color:#a0a0a01c;
 }
 .paragraphBody {
     text-align:center;

@@ -1,5 +1,6 @@
 
 .nav_bar{
+    z-index: 10;
     position:fixed;
     background-color:#001B2E;
     width:100%;
