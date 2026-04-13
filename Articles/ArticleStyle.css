@@ -28,6 +28,11 @@ body{
     margin-left:50%;
 }
 @media screen and (min-width: 1543px) {
+.TitleImage{
+    border: #ADB6C4;
+    border-width:10px;
+    border-style:solid;
+}
 .paragraphs {
     background-color: #001B2E;
     width: 70%;
@@ -39,32 +44,6 @@ body{
     border-radius: 10px;
     border:0;
 }
-}
-@media screen and (max-width: 1542px) {
-.paragraphs {
-    background-color: #001B2E;
-    width: 100%;
-    margin: auto;
-    font-family: "arial black";
-    text-align:center;
-    color:#ADB6C4;
-    padding: 0px 0px;
-    border-radius: 0px;
-    border:0;
-    font-size: 30px;
-}
-
-}
-.paragraphBody {
-    text-align:center;
-    color:#ADB6C4;
-}
-
-.paragraphTitle {
-    text-align:center;
-}
-
-
 .slideshow {
     max-width:960px;
     max-height:480px;
@@ -127,4 +106,100 @@ body{
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+}
+@media screen and (max-width: 1542px) {
+.TitleImage{
+    width: 70%;
+    border: #ADB6C4;
+    border-width:10px;
+    border-style:solid;
+}
+.paragraphs {
+    background-color: #001B2E;
+    width: 100%;
+    margin: left;
+    font-family: "arial black";
+    text-align:center;
+    color:#ADB6C4;
+    padding: 5px 0px;
+    border-radius: 0px;
+    border:0;
+    font-size:x-large;
+}
+.slideshow {
+    max-width:70%;
+    position: relative;
+    z-index: -1;
+    margin: auto;
+    align-self: center;
+    border: #ADB6C4;
+    border-width:10px;
+    border-style:solid;
+}
+.slide{
+    display:none;
+}
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    font-family:"arial black";
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:#ADB6C4;
+    user-select: none;
+    background-color:#00000057;
+}
+.next {
+    right:0;
+}
+.previous:hover, .next:hover {
+    color:#294C60;
+    background-color:#a0a0a01c;
+}
+
+.caption {
+    color:#ADB6C4;
+    font-family: "arial black";
+    font-size: 15px;
+    text-align: center;
+    text-decoration-line: none;
+}
+.captionContainer {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    background-color:#00000057;
+}
+
+.numbertext {
+    font-family:"arial black";
+    color:#ADB6C4;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color:#00000057;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.SlideImg {
+    width:100%;
+}
+
+}
+.paragraphBody {
+    text-align:center;
+    color:#ADB6C4;
+}
+
+.paragraphTitle {
+    text-align:center;
 }
