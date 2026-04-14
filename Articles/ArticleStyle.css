@@ -70,11 +70,11 @@ body{
 }
 .captionContainer {
     position: absolute;
-    bottom: 4px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     margin:auto;
-    background-color:#00000057;
+    background-color:#000000ce;
 }
 
 .numbertext {
@@ -137,11 +137,11 @@ body{
 }
 .captionContainer {
     position: absolute;
-    bottom: 4px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     margin:auto;
-    background-color:#00000057;
+    background-color:#000000ce;
 }
 
 .numbertext {
@@ -154,10 +154,6 @@ body{
     background-color:#00000057;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
 .SlideImg {
     width:100%;
 }
@@ -187,4 +183,8 @@ body{
 
 .paragraphTitle {
     text-align:center;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
 }

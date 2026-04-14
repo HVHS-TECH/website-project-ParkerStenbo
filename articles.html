@@ -12,20 +12,63 @@ body{
     margin:0;
     border:0;
 }
-.title{
-    text-align:center;
-    margin:auto;
-    color:#ADB6C4;
-    font-family:"arial black";
+@media screen and (min-width: 1000px) {
+    .title{
+        text-align:center;
+        margin-top: 0px;
+        margin-left:0;
+        padding-left:0;
+        border-left:0;
+        color:#ADB6C4;
+        font-family:"arial black";
+        width:100%;
+        height: 500px;
+        background-image: url("Images/Pictures of planes/Strikemaster Canopy.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 80%;
+        background-attachment: fixed;
+    }
+    .TitleSpacer {
+        height:390px;
+        text-align:center;
+    }
+    .TitleText{
+        margin:auto;
+        text-align:center;
+        width:fit-content; 
+        background-color:#294C60;
+        padding: 0px 10px;
+    }
+    .StrikemasterTitleImage{
+        display: none;
+    }
 }
-.spacerimg{
-    width:80px;
-    margin-left:-40px;
+
+@media screen and (max-width: 999px) {
+    .title{
+        text-align:center;
+        margin:auto;
+        margin-top: 15px;
+        color:#ADB6C4;
+        font-family:"arial black";
+    }
+    .StrikemasterTitleImage{
+        border: #ADB6C4;
+        border-width:10px;
+        border-style:solid;
+        width:80%;
+    }
+
 }
 .spacer{
     width:20px;
     height:90px;
     margin-left:50%;
+}
+.spacerimg{
+    width:80px;
+    margin-left:-40px;
 }
 @media screen and (min-width: 1543px) {
 .paragraphs {
@@ -185,17 +228,14 @@ body{
     <div class="spacer">
 
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="title">
-        <h1>Parkers Plane articles</h1>
-        <p> orginized by nation </p>
+<div class="title">
+    <div class="TitleSpacer"></div>
+    <div class="TitleText">
+        <img class="StrikemasterTitleImage" src="Images/Pictures of planes/Strikemaster Canopy.jpg" alt="the sea vixen, twin engined, twin-tailed, swepted wing aircraft with two seats and an offset cockpit.">
+        <h1>Parkers Plane Articles</h1>
+        <p>organised by nation</p>
     </div>
+</div>
     <div class="spacer">
         <img class="spacerimg" src="Images/icon.png" alt="just a pixelated plane. the site logo.">
     </div>
@@ -207,6 +247,11 @@ body{
                 <div class="PlaneLink" onclick="location.href='Articles/Strikemaster.html'">
                     <img class="LinkImage" src="Images/Pictures of planes/Strikemaster - resized.jpg">
                     <br> <a href="Articles/Strikemaster.html" class="paragraphBody">BAC Strikemaster</a>
+                </div>
+                <br>
+                <div class="PlaneLink" onclick="location.href='Articles/Sea_Vixen.html'">
+                    <img class="LinkImage" src="Images/Pictures of planes/Sea_Vixen - resized.jpg">
+                    <br> <a href="Articles/Strikemaster.html" class="paragraphBody">De Havilland Sea Vixen</a>
                 </div>
             </div>
         </div>

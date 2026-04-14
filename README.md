@@ -4,6 +4,5 @@ If you have any feedback, I'd much appreceate it, I'd take feedback in person OR
 
 anyway, enjoy the website and appreceate my commit messages. I worked hard on them.
 
-Credits:
-https://www.flickr.com/photos/14265068@N00/6322238503
+
 https://flickr.com/photos/87490663@N08/34932299646
